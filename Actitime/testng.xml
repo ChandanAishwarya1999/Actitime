@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.actitime.testscript.CustomerModule"/>
+<methods>
+<include name="createcustomer"></include></methods>
+    </classes>
+  </test> 
+ <test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.actitime.testscript.CustomerModule"/>
+<methods>
+<include name="deletecustomer"></include></methods>
+    </classes>
+  </test> 
+</suite > 
+
